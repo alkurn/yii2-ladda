@@ -10,13 +10,17 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist alkurn/yii2-ladda "*"
+php composer.phar require --prefer-dist alkurn/yii2-ladda "dev-master"
 ```
 
 or add
 
 ```
-"alkurn/yii2-ladda": "*"
+"alkurn/yii2-ladda": "dev-master"
+```
+
+```
+composer require alkurn/yii2-ladda:dev-master
 ```
 
 to the require section of your `composer.json` file.
