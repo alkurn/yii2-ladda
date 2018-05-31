@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
 
 class LaddaAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/ladda/dist';
+    public $sourcePath = '@vendor/bower-asset/ladda/dist';
     public $css = [
         'ladda-themeless.min.css',
     ];
