@@ -1,0 +1,22 @@
+{
+    "name": "alkurn/yii2-ladda",
+    "description": "yii2-ladda",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "ganesh",
+            "email": "ganesh.alkurn@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/ladda": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "alkurn\\ladda\\": ""
+        }
+    }
+}
